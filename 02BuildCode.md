@@ -184,7 +184,8 @@ In this exercise, you will build the code component.
     
 2. Navigate to this path `C:\LabFiles\Developer-in-a-day\Student\L02 - Build a code component\Resources` in file explorer.
     
-3. Drag the **PriorityComponent.tsx** file and drop it in the **PrioriZDnDRanking** folder.
+3. Drag the **PriorityComponent.tsx** file and drop it in this path `C:\Users\demouser\PrioritZDnDRanking\PrioritZDnDRanking` .
+
  
 4. The **PriorityComponent.tsx** file should now be in the **PrioriZDnDRanking** folder.
 

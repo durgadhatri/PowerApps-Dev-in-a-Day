@@ -145,7 +145,7 @@ In this exercise, you will build the code component.
 
       ![](images/L02/image12.png)
 
-19. Name the new folder ass **css**.
+19. Name the new folder as **css**.
 20. Select the new **css** folder you created and then click **New File**
  
      ![](images/L02/image13.png)

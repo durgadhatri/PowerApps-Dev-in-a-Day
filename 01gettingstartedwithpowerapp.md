@@ -98,7 +98,7 @@ In this exercise, you will import the current solution into the pre-created dev 
 
 1. Under the **Connections** section, click on the ellipsis button **...(1)** next to **Microsoft Dataverse Priority**.
 
-1. Ensure that  **odl_user(2)** you are using  is selected.
+1. Ensure that  **odl_user_<inject key="Deployment ID" enableCopy="false" />(2)** you are using  is selected.
 
 1. Click on **Import(3)**.
 

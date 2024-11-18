@@ -62,7 +62,7 @@ In this exercise, you will import the current solution into the pre-created dev 
 
 1. Once the notification is approved, click on **Next**.
    
-    ![](/images/L01/demo002.png)
+    ![](/images/L01/L1-E1-T1-S11.png)
 
 1. Click on **Done**.
 
@@ -138,7 +138,7 @@ In this exercise, you will import the current solution into the pre-created dev 
 
 10. Expand the **Parse JSON** step and review the data this flow will create.
 
-    ![](images/L01/L01-parse1.png)
+    ![](images/L01/L1-E1-T1-S33.png)
     
     >**Note**:If you're unable to expand the step, click on the ellipsis (...), then select Settings, and click Cancel.
     
@@ -150,7 +150,7 @@ In this exercise, you will import the current solution into the pre-created dev 
 
 13. Expand the **Apply to each topic item** step.
    
-     ![](images/L01/L01-eachtopic1.png)
+    ![](images/L01/L1-E1-T1-S35.png)
 
 14. The **Apply to each** step should look like the image below. This is the logic for the automation.
  

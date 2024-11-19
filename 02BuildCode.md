@@ -238,11 +238,11 @@ In this exercise, you will build the code component.
         ![](images/L02/image19.png)  
    
  
- 15. Locate the **Export** class in **line number 4**.
+ 14. Locate the **Export** class in **line number 5**.
       
      ![](images/L02/image20.png)
  
- 16. Add the following code below inside the **export** class. This defines some working variables you
+ 15. Add the following code below inside the **export** class. This defines some working variables you
     will be using in the class logic.
    
         ```
@@ -250,10 +250,10 @@ In this exercise, you will build the code component.
          private items: ComponentFramework.PropertyTypes.DataSet;
          private state: ComponentFramework.Dictionary;
         ```
-        ![](images/L02/image21.png)
+        ![](images/L02/L2-E1-T2-S15.png)
  
 
- 17. Locate the **init** function and remove the following line of code.
+ 16. Locate the **init** function and remove the following line of code.
 
        ```
         state: ComponentFramework.Dictionary
@@ -261,7 +261,7 @@ In this exercise, you will build the code component.
      
       ![](images/L02/initu.png)
         
- 18. Paste the code below inside the **init** function. This logic initializes our class variables from the
+ 17. Paste the code below inside the **init** function. This logic initializes our class variables from the
     runtime values and enables resize notification.    
     
         ![](images/L02/init1.png)
@@ -271,11 +271,11 @@ In this exercise, you will build the code component.
         context.mode.trackContainerResize(true);
        ```
  
-19. Locate the **updateView** function.
+18. Locate the **updateView** function.
 
      ![](images/L02/imageUpdateView.png)
  
-20. Replace the **updateView** function with the function below. This logic creates the React Element
+19. Replace the **updateView** function with the function below. This logic creates the React Element
     from the PriorityComponent and adds it to the virtual DOM.
   
      ```   
@@ -298,7 +298,7 @@ In this exercise, you will build the code component.
 
     ![](images/L02/image24.png)
  
-21. Add the below code after the **destroy** function. This logic handles the onReorder event from
+20. Add the below code after the **destroy** function. This logic handles the onReorder event from
     the PriorityComponent and identifies the involved items to the hosting app as selected items.
        
     ```
@@ -317,7 +317,7 @@ In this exercise, you will build the code component.
  
      > **Note** : **Destroy** function will be present at the end of the **PrioritZDnDRanking** class.
 
-22. After completing all the steps, make sure to replace the existing code in your `index.ts` file with the following code to avoid any errors:
+21. After completing all the steps, make sure to replace the existing code in your `index.ts` file with the following code to avoid any errors:
 
     ```
     import { IInputs, IOutputs } from "./generated/ManifestTypes";
@@ -406,13 +406,13 @@ In this exercise, you will build the code component.
     
     ```
 
-23. Open the **package.json** file.
+22. Open the **package.json** file.
     
-24. Locate the **dependencies** JSON object.
+23. Locate the **dependencies** JSON object.
 
       ![](images/L02/image26.png)
  
-25. Replace **dependencies** with the JSON below.
+24. Replace **dependencies** with the JSON below.
 
     ```
     "dependencies": {
@@ -463,11 +463,11 @@ In this exercise, you will build the code component.
         npm start
         ```
 
-31. The test harness should start, if not then copy the address and paste it in a new browser window. Try dragging the items and see if the behaviour functions as expected.
+31. The test harness should start. If a pop-up appears asking you to download Microsoft Edge, close the window. Then, copy the access URL ` http://localhost:xxxx ` from the terminal and paste it into a new browser window. Try dragging the items and verify if the behavior functions as expected.
 
       ![](images/L02/imagee29u.png)
  
-     > **Note**: If the test harness didn't start as expected you are not able to see the expected output as mentioned. Please verify that you have followed the previous instructions and added the code correctly in the **Manifest and Index** files. 
+     > **Note**: If the test harness didn't start as expected you are not able to see the expected output as mentioned. Please verify that you have followed the previous instructions and added the code correctly in the **Manifest and Index** files.
 
 32. Close the test harness by closing the browser tab.
 
